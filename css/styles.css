@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Montserrat&display=swap');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: #F7F7F7;
+	max-width: 960px;
+	display: block;
+	margin: 0 auto;
+	color: #000;
+}
+
+.landing_container, .about_container, .footer_container {
+	display: block;
+}
+
+.landing_container {
+	padding: 48px 0 0 0;
+}
+
+
+
+a {
+	color: #0038FF;
+}
+
+h1 {
+      line-height: 72px;
+    color: #0038FF;
+    width: 80%;
+    font-size: 48px;
+    margin: 0;
+}
+h2 {
+  margin: 48px 0 8px 4px;
+}
+p{
+  font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #686868;
+    line-height: 32px;
+    width: 80%;
+    margin: 0 0 0 10%;
+}
+
+span {
+  width: 80%;
+  display: block;
+  font-style: italic;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 32px 0 0 4px;
+}
+
+.portfolios {
+  margin: 5% 0 0 10%;
+}
+
+.portfolio_card {
+  width: 350px;
+  display: inline-block;
+  padding: 16px;
+  margin: 8px 4px;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #dadada;
+}
+.about_person {
+  width:100%;
+}
+.portfolio_content {
+  width: 100%;
+  float: left;
+  display: inline-block;
+}
+
+.portfolio_content p {
+  margin: 0;
+    padding: 16px 0 16px 8px;
+    font-size: 14px;
+    color: #686868;
+    line-height: 24px;
+}
+.portfolio_card img {
+  width: 25%;
+  border-radius: 100%;
+  float: left;
+  display: inline-block;
+  margin: 0 16px 0 0;
+}
+
+.portfolio_card h3 {
+  margin: 0;
+    padding: 16px 0 0 0;
+    font-size: 14px;
+}
+
+
+.portfolio_card h3 {
+  font-family: 'Merriweather', serif;
+}
+
+.portfolio_card h4 {
+      margin: 0;
+    padding: 4px 0 8px 8px;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.portfolio_card a {
+  margin: 0 0 0 8px;
+
+}
+
+
+.portfolio_card .portfolio_content {
+  float: left;
+  display: inline-block;
+}
+
+.footer_container {
+	color: #FF00A8;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+  font-weight: 300;
+  padding: 48px 0 32px 0;
+  font-size: 12px;
+}
+
+
+
+
+/*CLEARFIX*/
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}
+
